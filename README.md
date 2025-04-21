@@ -3,12 +3,19 @@
 2025.04.18 ~ 
 
 ## 개발환경
+# Back-End
 Spring boot 3.4.4 </br>
-Oracle DB / ojdbc11 </br>
-MyBatis </br>
 Java / JDK 17 </br>
+Oracle DB / ojdbc11 </br>
+
+# BackEnd - Library
+MyBatis 3.0.3 </br>
+Swagger 2.3.0 </br>
+lombok 1.18.38
+
+# Front-End
 React 18.2.0 </br>
-Node.js 22.14.0
+Node.js 22.14.0 </br>
 
 ## 환경구축
 ### 1. Oracle 21XE 설치 </br>
