@@ -16,4 +16,9 @@ public class SampleController {
     public Sample getExample(@RequestParam int id) {
         return sampleService.getExample(id);
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello from Spring Boot!";
+    }
 }
