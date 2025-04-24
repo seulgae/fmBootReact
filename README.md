@@ -32,3 +32,13 @@ https://code.visualstudio.com/
 
 ### 5. DBeaver 설치(선택.) </br>
 https://dbeaver.io/download/
+
+## 프로젝트 관련 문서
+요구사항 정의서 : </br>
+UI/UX 디자인 정의서 : </br>
+기능 정의서 : </br>
+프로젝트 설명 PPT : </br>
+
+## 프로젝트 영상 링크
+링크 : 
+
