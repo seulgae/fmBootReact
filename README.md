@@ -35,7 +35,7 @@ https://dbeaver.io/download/
 
 ## 프로젝트 관련 문서
 요구사항 정의서 : </br>
-UI/UX 디자인 정의서 : </br>
+화면 설계서 : </br>
 기능 정의서 : </br>
 프로젝트 설명 PPT : </br>
 
