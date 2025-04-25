@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.seulgae.fmbootreact.seulgaebuilder.repository.SeulgaeRepository">
+    <select id="selectSeulgaeTable" resultType="com.seulgae.fmbootreact.seulgaebuilder.model.Seulgae">
+        SELECT ID,
+               API_NAME,
+               REQUEST_PARAM,
+               RESPONSE_DATA,
+               CREATED_AT,
+               UPDATED_AT
+        FROM TB_SEULGAE_API_TEST_TABLE
+    ORDER BY ID
+    </select>
+</mapper>
