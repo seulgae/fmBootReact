@@ -37,6 +37,8 @@ https://dbeaver.io/download/
 요구사항 정의서 : </br>
 화면 설계서 : </br>
 기능 정의서 : </br>
+테이블 ERD : </br>
+테이블 정의서 : </br>
 프로젝트 설명 PPT : </br>
 
 ## 프로젝트 영상 링크
