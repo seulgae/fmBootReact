@@ -6,11 +6,7 @@
 <mapper namespace="com.seulgae.fmbootreact.seulgaebuilder.repository.SeulgaeRepository">
     <select id="selectSeulgaeTable" resultType="com.seulgae.fmbootreact.seulgaebuilder.model.Seulgae">
         SELECT ID,
-               API_NAME,
-               REQUEST_PARAM,
-               RESPONSE_DATA,
-               CREATED_AT,
-               UPDATED_AT
+               API_NAME
         FROM TB_SEULGAE_API_TEST_TABLE
     ORDER BY ID
     </select>

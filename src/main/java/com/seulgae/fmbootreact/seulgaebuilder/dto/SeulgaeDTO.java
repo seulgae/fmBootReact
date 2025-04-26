@@ -14,9 +14,5 @@ import lombok.Builder;
 public class SeulgaeDTO {
     private Long id;
     private String apiName;
-    private String requestParam;
-    private String responseData;
-    private String createdAt;
-    private String updatedAt;
 
 }
