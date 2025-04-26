@@ -10,4 +10,11 @@
         FROM TB_SEULGAE_API_TEST_TABLE
     ORDER BY ID
     </select>
+
+    <select id="selectAsisSeulgaeTable" resultType="com.seulgae.fmbootreact.seulgaebuilder.dto.SeulgaeDTO">
+        SELECT ID,
+               API_NAME
+        FROM TB_SEULGAE_API_TEST_TABLE
+        ORDER BY ID
+    </select>
 </mapper>

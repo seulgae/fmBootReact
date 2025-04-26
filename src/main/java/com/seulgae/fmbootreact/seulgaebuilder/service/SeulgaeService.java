@@ -6,4 +6,6 @@ import java.util.List;
 public interface SeulgaeService {
     List<SeulgaeDTO> getSeulgaeList();
 
+    List<SeulgaeDTO> getAsisSeulgaeList();
+
 }

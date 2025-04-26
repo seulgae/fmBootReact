@@ -27,4 +27,10 @@ public class SeulgaeController {
     public List<SeulgaeDTO> getSeulgaeList() {
         return seulgaeService.getSeulgaeList();
     }
+
+    @GetMapping("/asislist")
+    @Operation(summary = "API 속도 테스트", description = "디자인 패턴 적용 전 API 속도 테스트 측정")
+    public List<SeulgaeDTO> getAsisSeulgaeList() {
+        return seulgaeService.getAsisSeulgaeList();
+    }
 }

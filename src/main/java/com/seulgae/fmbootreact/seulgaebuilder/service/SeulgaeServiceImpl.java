@@ -26,4 +26,10 @@ public class SeulgaeServiceImpl implements SeulgaeService {
                 .map(Seulgae::seulgaeDTO)  // Model을 DTO로 변환
                 .collect(Collectors.toList());  // 결과를 리스트로 수집
     }
+
+    public List<SeulgaeDTO> getAsisSeulgaeList() {
+        return seulgaeRepository.selectAsisSeulgaeTable();
+    }
+
+
 }
