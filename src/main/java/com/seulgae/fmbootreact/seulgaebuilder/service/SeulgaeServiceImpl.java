@@ -17,6 +17,7 @@ public class SeulgaeServiceImpl implements SeulgaeService {
         this.seulgaeRepository = seulgaeRepository;
     }
 
+    // 디자인 패턴 적용 후
     public List<SeulgaeDTO> getSeulgaeList() {
         // DB에서 데이터를 Model(Seulgae)로 가져오기
         List<Seulgae> seulgaes = seulgaeRepository.selectSeulgaeTable();
@@ -28,6 +29,7 @@ public class SeulgaeServiceImpl implements SeulgaeService {
                 .collect(Collectors.toList());  // 결과를 리스트로 수집
     }
 
+    // 디자인 패턴 적용 전
     public List<SeulgaeDTO> getAsisSeulgaeList() {
         return seulgaeRepository.selectAsisSeulgaeTable();
     }
