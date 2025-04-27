@@ -2,8 +2,11 @@ package com.seulgae.fmbootreact.config;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.IOException;
 
+@Slf4j
 public class ResponseTimeFilter implements Filter {
 
     @Override
@@ -17,13 +20,10 @@ public class ResponseTimeFilter implements Filter {
         // 응답 후, 시간 계산
         long duration = System.currentTimeMillis() - startTime;
 
-        // 로그 출력
-        System.out.println("Adding response header 'X-Response-Time': " + duration + "ms");
-
         // 응답 헤더에 "X-Response-Time" 추가
-        if (response instanceof HttpServletResponse) {
-            HttpServletResponse httpResponse = (HttpServletResponse) response;
+        if (response instanceof HttpServletResponse httpResponse) {
             httpResponse.addHeader("X-Response-Time", duration + "ms");
+            log.debug("Adding response header 'X-Response-Time': {}ms", duration);
         }
     }
 }

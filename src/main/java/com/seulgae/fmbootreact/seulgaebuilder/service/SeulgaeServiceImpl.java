@@ -3,6 +3,7 @@ package com.seulgae.fmbootreact.seulgaebuilder.service;
 import com.seulgae.fmbootreact.seulgaebuilder.dto.SeulgaeDTO;
 import com.seulgae.fmbootreact.seulgaebuilder.model.Seulgae;
 import com.seulgae.fmbootreact.seulgaebuilder.repository.SeulgaeRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
