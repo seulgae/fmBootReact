@@ -34,7 +34,7 @@ https://code.visualstudio.com/
 https://dbeaver.io/download/
 
 ## 프로젝트 관련 문서
-요구사항 정의서 : </br>
+요구사항 정의서 : https://docs.google.com/spreadsheets/d/1f1ShE1-dW_lgVOlcjBzj5H4wn2hL1gBKFnw3qB_GyaQ/edit?gid=0#gid=0</br>
 화면 설계서 : </br>
 기능 정의서 : </br>
 테이블 ERD : </br>
