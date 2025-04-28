@@ -36,17 +36,25 @@ https://dbeaver.io/download/
 ## 프로젝트 관련 문서
 요구사항 정의서 </br>
 https://docs.google.com/spreadsheets/d/1f1ShE1-dW_lgVOlcjBzj5H4wn2hL1gBKFnw3qB_GyaQ/edit?gid=0#gid=0 </br>
+
 화면 설계서 </br>
 </br>
+
 기능 정의서</br>
 </br>
+
 테이블 ERD</br>
 </br>
+
 테이블 정의서</br>
 </br>
+
 프로젝트 설명 PPT</br>
 </br>
 
 ## 프로젝트 영상 링크
+링크 : 
+
+## Fm Manager 플래폼 사이트 링크
 링크 : 
 
