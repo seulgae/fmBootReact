@@ -55,6 +55,6 @@ https://docs.google.com/spreadsheets/d/1f1ShE1-dW_lgVOlcjBzj5H4wn2hL1gBKFnw3qB_G
 ## 프로젝트 영상 링크
 링크 : 
 
-## Fm Manager 플래폼 사이트 링크
+## Fm Manager 사이트 링크
 링크 : 
 
