@@ -43,9 +43,6 @@ https://docs.google.com/presentation/d/1FF7r3ZuEUpAHtVQY30QXhPuVwE99IttmNYPNxR_V
 기능 정의서</br>
 </br>
 
-테이블 ERD</br>
-</br>
-
 테이블 정의서</br>
 </br>
 
