@@ -38,12 +38,9 @@ https://dbeaver.io/download/
 https://docs.google.com/spreadsheets/d/1f1ShE1-dW_lgVOlcjBzj5H4wn2hL1gBKFnw3qB_GyaQ/edit?gid=0#gid=0 </br>
 
 화면 설계서 </br>
-</br>
+https://docs.google.com/presentation/d/1FF7r3ZuEUpAHtVQY30QXhPuVwE99IttmNYPNxR_Vi1M/edit#slide=id.p </br>
 
 기능 정의서</br>
-</br>
-
-테이블 ERD</br>
 </br>
 
 테이블 정의서</br>
