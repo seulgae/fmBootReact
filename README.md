@@ -26,7 +26,7 @@ https://nodejs.org/ko/download
 
 ### 3. IntelliJ(IDE) 설치. </br>
 https://www.jetbrains.com/ko-kr/idea/
-
+git 
 ### 4. VsCode(IDE) 설치. </br>
 https://code.visualstudio.com/
 
@@ -38,13 +38,13 @@ https://dbeaver.io/download/
 https://docs.google.com/spreadsheets/d/1f1ShE1-dW_lgVOlcjBzj5H4wn2hL1gBKFnw3qB_GyaQ/edit?gid=0#gid=0 </br>
 
 기능 정의서</br>
-</br>
+https://docs.google.com/spreadsheets/d/1U7ZrKfCkn4Cxck7G4Em2LSsWSVHgnrOTC8siOiUQVpg/edit?gid=1829665033#gid=1829665033 </br>
 
 화면 설계서 </br>
 https://docs.google.com/presentation/d/1FF7r3ZuEUpAHtVQY30QXhPuVwE99IttmNYPNxR_Vi1M/edit#slide=id.p </br>
 
 테이블 정의서</br>
-</br>
+https://docs.google.com/spreadsheets/d/1scVyZGWcuHJZEbJgs2wtIpJXsH4PtBj_xNlTTMJHQIY/edit?gid=0#gid=0 </br>
 
 프로젝트 설명 PPT</br>
 </br>
