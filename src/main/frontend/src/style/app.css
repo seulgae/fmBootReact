@@ -1,0 +1,68 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 2; /* 배경보다 위 */
+}
+
+/* 이미지 페이드 전환을 위한 컨테이너 */
+.background-fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    animation: fadeImages 18s infinite;
+    z-index: 0; /* 가장 아래 */
+}
+
+.background-fader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 15s infinite;
+    transition: opacity 1s ease-in-out;
+}
+
+/* 기존 배경 이미지들을 감싸는 레이어 */
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.4); /* 회색 반투명 */
+    z-index: 1; /* 배경 위, 텍스트 아래 */
+}
+
+/* 이미지마다 애니메이션 시작 시점 설정 */
+.background-fader img:nth-child(1) {
+    animation-delay: 0s;
+}
+.background-fader img:nth-child(2) {
+    animation-delay: 5s;
+}
+.background-fader img:nth-child(3) {
+    animation-delay: 10s;
+}
+
+/* 페이드 키프레임 */
+@keyframes fade {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    30% { opacity: 1; }
+    40% { opacity: 0; }
+    100% { opacity: 0; }
+}

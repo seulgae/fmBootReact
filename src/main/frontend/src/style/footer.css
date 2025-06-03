@@ -1,0 +1,18 @@
+/* Footer도 비슷하게 */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BE2220;
+    text-align: center;
+    padding: 12px 0;
+    color: white;
+    z-index: 1000;
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}

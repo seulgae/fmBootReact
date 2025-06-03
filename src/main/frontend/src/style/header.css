@@ -1,0 +1,55 @@
+/* header.css */
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BE2220;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+    color: white;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+}
+
+.header-logo a {
+    display: inline-block; /* transform 효과를 주려면 block 또는 inline-block 필요 */
+    transition: transform 0.3s ease;
+}
+
+.header-logo a:hover {
+    transform: scale(1.1); /* 살짝 확대 */
+}
+
+.header-nav {
+    display: flex;
+    gap:80px; /* 메뉴 간 간격 */
+    color: white;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.header-nav a:hover {
+    color: #F0D1AF;
+    transform: scale(1.1); /* 1.1배 확대 */
+}
