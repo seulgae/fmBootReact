@@ -1,4 +1,4 @@
-/* header.css */
+/* 헤더 전체 영역 */
 .header {
     position: relative;
     top: 0;
@@ -11,6 +11,7 @@
     z-index: 1000;
 }
 
+/* 헤더 일부 영역 */
 .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -21,6 +22,7 @@
     align-items: center;
 }
 
+/* 로고 이미지 영역 */
 .header-logo img {
     height: 100px;
     width: auto;
@@ -36,6 +38,7 @@
     transform: scale(1.1); /* 살짝 확대 */
 }
 
+/* 메뉴바 간격 */
 .header-nav {
     display: flex;
     gap:80px; /* 메뉴 간 간격 */

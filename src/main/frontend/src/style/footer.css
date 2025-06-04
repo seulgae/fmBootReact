@@ -1,4 +1,4 @@
-/* Footer도 비슷하게 */
+/* 푸터 전체 영역 */
 .footer {
     position: fixed;
     bottom: 0;
@@ -11,6 +11,7 @@
     z-index: 1000;
 }
 
+/* 푸터 컨텐츠 영역 */
 .footer-content {
     max-width: 100%;
     margin: 0 auto;

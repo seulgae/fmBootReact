@@ -6,7 +6,7 @@ export default function Header() {
         <header className="header">
             <div className="header-content">
                 <div className="header-logo">
-                    <a href="/">
+                    <a href="/src/main/frontend/public">
                         <img src={logo} alt="FM MagerLog" />
                     </a>
                 </div>
