@@ -1,6 +1,7 @@
-/* 헤더 전체 영역 */
+/* ✅ 헤더 전체 영역 */
 .header {
     position: relative;
+    height: 140px; /* 헤더 높이를 명확히 지정 */
     top: 0;
     left: 0;
     width: 100%;
@@ -11,7 +12,7 @@
     z-index: 1000;
 }
 
-/* 헤더 일부 영역 */
+/* ✅ 헤더 내부 컨텐츠 정렬 */
 .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,37 +23,93 @@
     align-items: center;
 }
 
-/* 로고 이미지 영역 */
+/* ✅ 로고 */
 .header-logo img {
     height: 100px;
     width: auto;
     display: block;
 }
-
 .header-logo a {
-    display: inline-block; /* transform 효과를 주려면 block 또는 inline-block 필요 */
+    display: inline-block;
     transition: transform 0.3s ease;
 }
-
 .header-logo a:hover {
-    transform: scale(1.1); /* 살짝 확대 */
+    transform: scale(1.1);
 }
 
-/* 메뉴바 간격 */
+/* ✅ 메뉴 기본 (PC용) */
 .header-nav {
     display: flex;
-    gap:80px; /* 메뉴 간 간격 */
-    color: white;
+    gap: 80px;
 }
-
 .header-nav a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s, transform 0.3s;
 }
-
 .header-nav a:hover {
     color: #F0D1AF;
-    transform: scale(1.1); /* 1.1배 확대 */
+    transform: scale(1.1);
+}
+
+/* 기본 상태 - 메뉴 버튼 숨기기, 메뉴는 가로 표시 (PC용) */
+.menu-button {
+    display: none;
+}
+
+/* 모바일 화면 (예: max-width: 768px 이하)일 때 */
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 28px;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* 헤더 높이 줄이기 */
+    .header {
+        height: 80px; /* 예: 140px에서 80px로 축소 */
+        padding: 8px 0; /* 패딩도 줄이면 더 컴팩트 */
+    }
+
+    /* 로고 이미지 크기 줄이기 */
+    .header-logo img {
+        height: 60px; /* 기존 100px에서 작게 */
+        width: auto;
+    }
+
+    /* 필요 시 로고 링크도 조절 가능 */
+    .header-logo a:hover {
+        transform: none; /* 모바일에서는 확대 효과 빼도 좋음 */
+    }
+
+    .header-nav {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #BE2220;
+        max-height: 0;           /* 닫힌 상태 */
+        overflow: hidden;
+        flex-direction: column;
+        gap: 0;
+        transition: max-height 0.3s ease; /* 애니메이션 */
+    }
+
+    .header-nav.open {
+        max-height: 500px;       /* 충분히 큰 값으로 열림 상태 */
+    }
+
+    .header-nav a:first-child {
+        border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .header-nav a {
+        padding: 12px 24px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
 }

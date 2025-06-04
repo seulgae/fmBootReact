@@ -17,3 +17,22 @@
     margin: 0 auto;
     padding: 0 24px;
 }
+
+@media (max-width: 768px) {
+    /* 푸터 전체 영역 - 모바일에서 높이와 글자 크기 조정 */
+    .footer {
+        padding: 16px 0;       /* 패딩 살짝 증가 */
+        font-size: 14px;       /* 글자 크기 작게 */
+    }
+
+    /* 푸터 컨텐츠 영역 - 좌우 패딩 축소 */
+    .footer-content {
+        padding: 0 12px;
+    }
+
+    /* 푸터에 로고 이미지가 있다면 크기 조절 예시 */
+    .footer-logo img {
+        height: 40px;          /* 모바일에서 로고 크기 줄이기 */
+        width: auto;
+    }
+}

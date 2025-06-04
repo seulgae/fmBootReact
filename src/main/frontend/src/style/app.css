@@ -12,10 +12,6 @@ html, body, #root {
     z-index: 2; /* 배경보다 위 */
 }
 
-
-
-
-/* 이미지 페이드 전환 컨테이너 임시 비활성화 */
 /* 이미지 페이드 전환을 위한 컨테이너 */
 .background-fader {
     position: fixed;
@@ -69,4 +65,11 @@ html, body, #root {
     30% { opacity: 1; }
     40% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+    .background-fader,
+    .background-overlay {
+        display: none !important;
+    }
 }
