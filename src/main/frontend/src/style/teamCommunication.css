@@ -1,0 +1,41 @@
+.team-comm-wrapper {
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.team-comm-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+}
+
+.team-comm-header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* 버튼 스타일 (필요 시) */
+.team-comm-button {
+    float: right;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.team-comm-button:hover {
+    background-color: #0056b3;
+}
+
+/* 예시 테이블 스타일도 필요하면 추가 가능 */

@@ -67,6 +67,33 @@ html, body, #root {
     100% { opacity: 0; }
 }
 
+/* slide-enter: 컴포넌트가 나타나기 시작할 때 초기 상태 */
+.slide-enter {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/* slide-enter-active: 컴포넌트가 나타나는 동안 */
+.slide-enter-active {
+    transform: translateX(0%);
+    opacity: 1;
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+/* slide-exit: 컴포넌트가 사라지기 시작할 때 상태 */
+.slide-exit {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/* slide-exit-active: 컴포넌트가 사라지는 동안 */
+.slide-exit-active {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+/* 모바일 css */
 @media (max-width: 768px) {
     .background-fader,
     .background-overlay {

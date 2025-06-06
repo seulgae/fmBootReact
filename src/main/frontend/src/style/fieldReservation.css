@@ -1,0 +1,28 @@
+/* fieldReservation.css */
+
+.field-wrapper {
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.field-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.field-container h1 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* 테이블, 버튼 등 추가 스타일 필요하면 여기에 작성 */
